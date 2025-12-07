@@ -1,7 +1,7 @@
 # 🫧 Bubble Pop: 2D Mobile Arcade Game
 
 <div align="center">
-  <img src="Media/bubble_pop_icon.png" alt="Bubble Pop Icon" width="100" height="100"/>
+  <img src="Media/icon.png" alt="Bubble Pop Icon" width="100" height="100"/>
   <p><strong>A fast-paced, physics-driven bubble-popping arcade experience</strong></p>
 </div>
 
@@ -80,7 +80,7 @@ The project is organized to keep logic and assets clean:
 
 | Active Gameplay | Game Over Screen |
 | :---: | :---: |
-| ![Gameplay](Media/screenshot_gameplay.jpg) | ![Game Over](Media/screenshot_gameover.jpg) |
+| ![Gameplay](Media/gameplay.png) | ![Game Over](Media/gameover.png) |
 | *Bubbles floating up the screen with score and timer visible* | *Final score display with Restart button for immediate replay* |
 
 -----
@@ -237,11 +237,10 @@ Found a bug? Have a feature request? Feel free to:
   <p>
     <strong>Developed by Devesh Ghodpage</strong><br/>
     <em>Built with Unity & C#</em><br/>
-    <img src="Media/unity_logo.png" alt="Unity" width="50" height="50"/>
   </p>
   <p>
     <a href="https://github.com/DDev333/Bubble_Pop">GitHub Repository</a> • 
-    <a href="mailto:devesh@example.com">Contact</a>
+    <a href="mailto:deveshghodpage333@yahoo.in">Contact</a>
   </p>
   <p>
     <em>Last Updated: December 2025</em>
