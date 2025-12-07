@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 1416136533986607311}
   - component: {fileID: 8730390512038352031}
   - component: {fileID: 892376998155154188}
-  - component: {fileID: 4963035497686442016}
-  - component: {fileID: 2987136223482735948}
+  - component: {fileID: 2160003539591920486}
+  - component: {fileID: 7382629872698594596}
   m_Layer: 0
   m_Name: Bubble
   m_TagString: Untagged
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -2413806693520163455, guid: 2531d2465f96c064291ccc88bcb43973, type: 3}
   m_Color: {r: 0.76019317, g: 0.5823781, b: 0.7735849, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 543e97fbbe09b16459969b72cc111545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &4963035497686442016
+--- !u!82 &2160003539591920486
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -278,7 +278,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!95 &2987136223482735948
+--- !u!95 &7382629872698594596
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0

@@ -4,7 +4,7 @@ public class BubblePopper : MonoBehaviour
 {
     private AudioSource popSound;
     private Animator animator;
-    // private bool isPopping = false;
+    private bool isPopping = false;
 
     private void Start() {
         popSound = GetComponent<AudioSource>();
@@ -13,13 +13,14 @@ public class BubblePopper : MonoBehaviour
 
     private void OnMouseDown() 
     {
-        // if (isPopping)
-        // {
-        //     return;
-        // }
+        if (isPopping)
+        {
+            return;
+        }
+        isPopping = true;
         FindObjectOfType<GameManager>().AddScore(10);
         popSound.Play();
-        // animator.SetTrigger("Pop");
-        Destroy(gameObject);
+        animator.enabled = true;
+        Destroy(gameObject, popSound.clip.length);
     }
 }
