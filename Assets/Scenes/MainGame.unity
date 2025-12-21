@@ -1033,7 +1033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bubblePrefab: {fileID: 7413382663127065962, guid: d81a7c9bb0ead0342899b9fa85382b82, type: 3}
-  xRange: 8
+  xRange: 2
   spawnInterval: 0.25
 --- !u!4 &1466843655
 Transform:
